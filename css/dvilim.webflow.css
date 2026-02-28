@@ -5610,12 +5610,23 @@ figcaption {
     padding-bottom: 12.5rem;
   }
 
-  .hero.for-inner {
-    padding-bottom: 110px;
+  .hero.for-inner, .hero.for-inner-kontakt {
+    flex-direction: column;
+    padding-bottom: 2rem;
   }
 
   .hero.for-inner.work-page, .hero.for-inner.work-page-projekt {
-    padding-bottom: 120px;
+    padding-bottom: 2rem;
+  }
+
+  .hero.for-inner .absolute-bottom,
+  .hero.for-inner-kontakt .absolute-bottom {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    padding-top: 1.5rem;
+    width: 100%;
   }
 
   .container {
