@@ -5953,6 +5953,7 @@ figcaption {
   .heading-2.herosekce {
     margin-top: 5px;
     margin-bottom: 5px;
+    text-align: center;
   }
 
   .heading-3 {
@@ -6102,6 +6103,10 @@ figcaption {
 
   .link-large {
     font-size: 6vw;
+  }
+
+  .text-block-5, .text-block-6 {
+    font-size: 5vw;
   }
 
   .contact-image-inner {
